@@ -10,8 +10,8 @@ function HeroSection() {
         <Image
           src="/image-1.png"
           layout="responsive"
-          width={500}
-          height={500}
+          width={1000}
+          height={1400}
           alt="hero-image"
           className="rounded-full shadow-2xl p-5"
         />
