@@ -1,11 +1,15 @@
-import { ModeToggle } from "@/components/ModeToggle";
-import Image from "next/image";
-import Link from "next/link";
+import HeroSection from "@/app/_components/HeroSection";
+import { Features } from "./_components/Features";
+import VetsInfo from "./_components/VetsInfo";
+import TakeMeeting from "./_components/TakeMeeting";
 
 export default function Home() {
   return (
     <div>
-      <ModeToggle />
+      <HeroSection />
+      <Features />
+      <VetsInfo />
+      <TakeMeeting />
     </div>
   );
 }
