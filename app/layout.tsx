@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 // Tüm SEO ve metadata bilgileri artık burada yönetilecek.
 export const metadata: Metadata = {
   // metadataBase: Temel URL'yi belirtir, diğer URL'ler buna göre çözümlenir.
-  metadataBase: new URL("https://www.candostlarveteriner.com"), // Kendi alan adınızı yazdığınızdan emin olun!
+  metadataBase: new URL("https://vet-website-project.vercel.app/"), // Kendi alan adınızı yazdığınızdan emin olun!
 
   // Sayfa Başlığı Ayarları (title.default ana sayfa/varsayılan, template alt sayfalar için)
   title: {
